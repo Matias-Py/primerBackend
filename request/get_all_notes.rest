@@ -1,0 +1,14 @@
+###
+GET http://localhost:8008/api/persons/
+
+###
+DELETE http://localhost:8008/api/persons/2
+
+###
+POST  http://localhost:8008/api/persons/
+Content-Type: application/json
+
+{
+    "name": "dawaw3",
+    "number": "040-d22"
+}
